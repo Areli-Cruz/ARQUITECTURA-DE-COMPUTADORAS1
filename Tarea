@@ -1,0 +1,63 @@
+ESTRUCTURA  LÓGICA DE UN DISCO DURO
+
+Disco duro: Es un dispositivo de almacenamiento permanente de tipo magnético, donde se guardan los archivos del sistema operativo, las aplicaciones y los archivos del propio usuario.
+
+La estructura  lógica  de un disco duro está formado por:
+Sector de arranque: Es el primer sector de un  disco duro en él se almacena la tabla de particiones y un  programa  pequeño llamado Master Boot. Este programa se encarga de  leer la tabla de particiones y ceder el control al sector de  arranque de la partición activa, en caso de que no  existiese partición activa mostraría un mensaje de  error.
+Espacio particionado: Es el espacio del disco que  ha sido asignado a alguna partición.
+Espacio sin particionar: Es el espacio del disco  que no ha sido asignado a ninguna partición.
+
+
+
+
+TIPOS DE DISCOS DUROS
+•	SAS: Estos discos son muy solicitados para el empleo en servidores, es posible conectarlos hasta con 6 o 7 metros de distancia y de ahí en adelante cubrir hasta 24 computadoras.
+•	SCSI: Estos discos poseen una interfaz muy pequeña y exige de un controlador para que opere.
+•	IDE, ATA y PATA: Cada clase de disco duro representa o quiere decir: IDE. Es la abreviatura de componente electrónico integrado. ATA. Es la abreviatura de tecnología avanzada de contacto. PATA. Es la abreviatura de tecnología paralela avanzada.
+•	SATA: Esta sigla significa tecnología avanzada de contacto. Y se distingue por funcionar con una velocidad cercana a los 150 megabytes por segundo.
+•	SATA 2: Este dispositivo dispone de mejor capacidad debido a que funciona hasta con 300 megabytes por segundo, lo que representa que su tiempo de respuesta es muy bueno. DISCO DURO SATA 2 se diferencia en comparación con el SATA es que realiza sus actividades a 300Megabytes/segundo.
+TAZAS DE TRANSFERENCIA
+TASA DE TRANSFERENCIA (Transfer Rate)
+Este número indica la cantidad de datos un disco puede leer o escribir en la parte más exterior del disco o plato en un periodo de un segundo. Normalmente se mide en Mbits/segundo.
+RECOMENDACIONES
+•	PARA UN USUARIO NORMAL
+* 4,5GB mínimo
+* 5400RPM
+* 10ms de tiempo de acceso
+* Buffer de 128KB
+* Modo Ultra DMA-33
+•	PARA UN USUARIO DE ALTAS PRESTACIONES
+* 6,5GB mínimo
+* 7200RPM
+* 8ms de tiempo de acceso
+* Buffer de 512KB
+* Modo Ultra DMA-33 o SCSI
+•	PARA UN SERVIDOR O UNA ESTACÍON GRAFICA
+* 6,5GB mínimo
+* 7200RPM a 10.000rpm
+* 8ms de tiempo de acceso
+* Buffer de 1MB
+* Modo ULTRA-SCSI o ULTRA-WIDE SCSI
+•	SATA o SATA 1, con una velocidad de transmisión de 150MB/s, llamado también SATA 1.5Gb. Este tipo ya prácticamente no se utiliza, a pesar de su reciente aparición.
+•	SATA 2, con una velocidad de transmisión de 300MB/s, conocido también como SATA 3Gb. Es el tipo más utilizado, y suelen tener un jumper para poder utilizarlos como SATA 1.
+•	El tipo SATA 6Gb, con una velocidad de transmisión de 600 MBs.
+
+TIPOS DE COMPUTADORAS
+
+•	Computadora de escritorio: Diseñada para realizar tareas cotidianas y brindar una buena potencia para ello a un precio bajo.
+•	Portátiles: Son de un costo más alto que las computadoras de escritorio, pero su característica principal es la portabilidad, es decir, se pueden llevar a donde se quiere.
+•	Netbooks: Son más portables que un portátil o laptop, pero al ser tan pequeñas no son muy potentes y perdieron popularidad con la llegada de las tablets.
+•	Computadoras de mano: Un Smartphone puede hacer lo mismo y mucho más en la actualidad.
+•	Estaciones de trabajo: Computadoras ideales para trabajos de alta exigencia, pero para una sola persona, por ende no alcanzan el grado de complejidad de otros tipos de computadoras.
+•	Servidores: Se emplean para almacenar sitios web y garantizar una conexión constante a los mismos vía internet. También los hay para intranets.
+•	Mainframes: Se utilizan para negocios en un entorno local y ocupan mucho espacio, hasta una habitación.
+•	Minicomputadoras: Semejantes a un servidor, pero con menos potencia.
+•	Supercomputadoras: Son muy costosas y de alta complejidad. Se emplean para aplicaciones muy especializadas.
+PROCESADOR DE UNA COMPUTADORA
+En un procesador puedes encontrar los siguientes elementos:
+Núcleos. Una delas mejoras en las tecnologías de fabricación de los procesadores lo que ha conseguido es aumentar el número de transistores que pueden los fabricantes crear por unidad de área. Un mayor número de ellos conlleva que se puedan integrar más elementos. Los fabricantes gracias a esto han añadido varios núcleos en un mismo procesador. Cada uno de estos elementos no es más que un procesador pero reducido en tamaño. Al tener varios ciertas tareas se pueden acelerar al trabajar en paralelo.
+Cache. Es muy importante, para las prestaciones que el micro es capaz de dar, acelerar el uso de los accesos a memoria RAM. Ten en cuenta que en ella se encuentran tanto los datos como las instrucciones de los programas con los que estés trabajando. Un procesador tiene varios niveles de memoria cache pensada para acelerar estos accesos.
+Su idea de funcionamiento es sencilla, se almacenan en ella los datos e instrucciones a los que se accede más frecuentemente y al estar cerca del procesador el acceso es más rápido. Fuera del núcleo nos encontramos con la denominada LLC (Last level cache) que dependiendo del modelo es la tercera o segunda capa.
+Otros elementos integrados. Dependiendo de la arquitectura tendrán más elementos o menos en su interior. Más información un poco más adelante en el artículo.
+Interconexionado interno. Todos estos elementos necesitan conectarse entre ellos para intercambiar información. Tenemos básicamente dos opciones o conectar líneas una a una entre todos los elementos lo cual complica algo el diseño o crear un bus al cual todos se conecten para compartir información.
+
